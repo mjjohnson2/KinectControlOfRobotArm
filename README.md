@@ -68,14 +68,12 @@ Initial Setup:
 Kinect Files: 
 
 markerlocator.mdl
-
 The file is a Simulink model, which can be easily rebuilt. It should be noted that within the TransformCoordinates function, there exist three equations. Each equation pertains to the transformation, translation, and scaling of the Kinect coordinate axis to the XR-4 coordinate axis specific to my setup. These equations are based on very specific information regarding the layout of the Kinect and the XR-4 and are further explained here: http://kinectkontrol.weebly.com/kinectrhino.html
 
 
 Rhino XR-4 Function Files
 
 main.m
-
 This file is the main script, main.m script. It was written to reach, grab, and pick up the object. Then place it back down, return to the base, and then prompt the user if they would like to continue with another run.
 
 The following files can be utilized to write a new main method:
